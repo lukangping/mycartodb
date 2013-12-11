@@ -2,6 +2,13 @@ sudo apt-get install nodejs npm -y &&
 sudo apt-get install redis-server -y &&
 sudo apt-get install libmapnik libmapnik-dev mapnik-utils python-mapnik -y
 
+##解决代理问题
+
+npm config set proxy http://username:password@server:port
+npm config set https-proxy http://username:pawword@server:port
+##如果代理不支持https的话需要修改npm存放package的网站地址。
+npm config set registry "http://registry.npmjs.org/"
+
 ##CartoDB-SQL
 git clone git://github.com/CartoDB/CartoDB-SQL-API.git
 cd CartoDB-SQL-API
