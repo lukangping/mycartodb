@@ -1,0 +1,45 @@
+sudo -u postgres psql
+ALTER USER postgres WITH PASSWORD ‘postgres'
+
+http://blog.sina.com.cn/s/blog_6af33caa0100ypck.html
+
+
+
+export LC_ALL="en_US.UTF-8"
+
+# ruby developer packages 
+sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 
+sudo apt-get install libreadline-ruby1.8 libruby1.8 libopenssl-ruby 
+# nokogiri requirements 
+sudo apt-get install libxslt-dev libxml2-dev 
+sudo gem install nokogiri  
+
+
+redis-cli
+
+
+
+
+sudo add-apt-repository ppa:cartodb/gis
+
+sudo add-apt-repository ppa:cartodb/mapnik
+
+sudo add-apt-repository ppa:cartodb/nodejs
+
+sudo add-apt-repository ppa:cartodb/redis
+
+sudo add-apt-repository  ppa:cartodb/postgresql
+
+
+
+http://stackoverflow.com/questions/7937270/amazon-ec2-permissions-and-a-simple-web-server
+
+netstat -ltnp
+
+
+
+
+
+http://trac.osgeo.org/gdal/wiki/DownloadSource
+
+
