@@ -1,5 +1,7 @@
 https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/516032
 
+http://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy
+
 package com.huawei.demo.json;
 
 public class Coordinate {
