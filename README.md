@@ -1,3 +1,5 @@
+https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/516032
+
 package com.huawei.demo.json;
 
 public class Coordinate {
