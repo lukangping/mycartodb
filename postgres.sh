@@ -2,7 +2,7 @@ sudo apt-get install postgresql-9.1 postgresql-client-9.1 postgresql-contrib-9.1
 sudo apt-get install postgresql-plpython-9.1 -y &&
 
 wget http://download.osgeo.org/geos/geos-3.4.2.tar.bz2
-tar xzf geos-3.4.2.tar.bz2
+tar xf geos-3.4.2.tar.bz2
 cd geos-3.4.2
 .configure
 make
@@ -10,7 +10,7 @@ sudo make install
 
 
 wget http://download.osgeo.org/postgis/source/postgis-2.0.2.tar.gz
-tar xzf postgis-2.0.2.tar.gz
+tar xf postgis-2.0.2.tar.gz
 cd postgis-2.0.2
 ./configure --with-raster --with-topology
 make
